@@ -89,7 +89,7 @@
                         <h1 class="text-4xl font-bold bg-gradient-to-r from-bloody-light to-white bg-clip-text text-transparent">
                             Tr1gger
                         </h1>
-                        <p class="text-gray-400 text-sm">Advanced Dashboard System</p>
+                        <p class="text-gray-400 text-sm">Dashboard</p>
                     </div>
                 </div>
                 <div class="flex items-center space-x-4">
@@ -128,15 +128,10 @@
                         <h2 class="text-2xl font-bold mb-6 text-bloody-light">Generate Roblox Links</h2>
                         <div class="space-y-4">
                             <div>
-                                <label class="block text-sm font-medium text-gray-300 mb-2">Game ID</label>
+                                <label class="block text-sm font-medium text-gray-300 mb-2">Profile ID</label>
                                 <input type="text" placeholder="Enter Roblox Game ID" 
                                        class="w-full px-4 py-3 bg-black/50 border border-bloody/30 rounded-lg focus:outline-none input-glow transition-all duration-300">
-                            </div>
-                            <div>
-                                <label class="block text-sm font-medium text-gray-300 mb-2">Custom Parameters</label>
-                                <textarea placeholder="Additional parameters..." 
-                                          class="w-full px-4 py-3 bg-black/50 border border-bloody/30 rounded-lg focus:outline-none input-glow transition-all duration-300 h-24 resize-none"></textarea>
-                            </div>
+                            </div/>
                             <button class="btn-primary w-full py-3 rounded-lg font-semibold text-white">
                                 Generate Link
                             </button>
@@ -145,18 +140,7 @@
                     <div class="card-glow bg-black/40 backdrop-blur-sm rounded-2xl p-8 border border-bloody/20">
                         <h3 class="text-xl font-bold mb-4 text-bloody-light">Generated Links</h3>
                         <div class="space-y-3">
-                            <div class="glass-effect p-4 rounded-lg">
-                                <div class="flex justify-between items-center">
-                                    <span class="text-sm text-gray-300">roblox.com/games/123456789</span>
-                                    <button class="text-bloody-light hover:text-bloody transition-colors">Copy</button>
-                                </div>
-                            </div>
-                            <div class="glass-effect p-4 rounded-lg">
-                                <div class="flex justify-between items-center">
-                                    <span class="text-sm text-gray-300">roblox.com/games/987654321</span>
-                                    <button class="text-bloody-light hover:text-bloody transition-colors">Copy</button>
-                                </div>
-                            </div>
+                           <!--soon -->
                         </div>
                     </div>
                 </div>
@@ -169,7 +153,7 @@
                         <div class="flex items-center justify-between">
                             <div>
                                 <p class="text-gray-400 text-sm">Total Links</p>
-                                <p class="text-3xl font-bold text-bloody-light">247</p>
+                                <p class="text-3xl font-bold text-bloody-light">0</p>
                             </div>
                             <div class="w-12 h-12 bg-bloody/20 rounded-full flex items-center justify-center">
                                 <span class="text-bloody-light text-xl">🔗</span>
@@ -180,7 +164,7 @@
                         <div class="flex items-center justify-between">
                             <div>
                                 <p class="text-gray-400 text-sm">Active Links</p>
-                                <p class="text-3xl font-bold text-green-400">189</p>
+                                <p class="text-3xl font-bold text-green-400">0</p>
                             </div>
                             <div class="w-12 h-12 bg-green-400/20 rounded-full flex items-center justify-center">
                                 <span class="text-green-400 text-xl">✓</span>
@@ -191,7 +175,7 @@
                         <div class="flex items-center justify-between">
                             <div>
                                 <p class="text-gray-400 text-sm">Click Rate</p>
-                                <p class="text-3xl font-bold text-blue-400">94.2%</p>
+                                <p class="text-3xl font-bold text-blue-400">0%</p>
                             </div>
                             <div class="w-12 h-12 bg-blue-400/20 rounded-full flex items-center justify-center">
                                 <span class="text-blue-400 text-xl">📊</span>
@@ -211,24 +195,6 @@
                                     <th class="text-left py-3 px-4 text-gray-300">Actions</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr class="border-b border-gray-800">
-                                    <td class="py-3 px-4 text-sm">roblox.com/games/example1</td>
-                                    <td class="py-3 px-4"><span class="bg-green-400/20 text-green-400 px-2 py-1 rounded-full text-xs">Active</span></td>
-                                    <td class="py-3 px-4 text-sm">1,234</td>
-                                    <td class="py-3 px-4">
-                                        <button class="text-bloody-light hover:text-bloody text-sm">Edit</button>
-                                    </td>
-                                </tr>
-                                <tr class="border-b border-gray-800">
-                                    <td class="py-3 px-4 text-sm">roblox.com/games/example2</td>
-                                    <td class="py-3 px-4"><span class="bg-yellow-400/20 text-yellow-400 px-2 py-1 rounded-full text-xs">Pending</span></td>
-                                    <td class="py-3 px-4 text-sm">567</td>
-                                    <td class="py-3 px-4">
-                                        <button class="text-bloody-light hover:text-bloody text-sm">Edit</button>
-                                    </td>
-                                </tr>
-                            </tbody>
                         </table>
                     </div>
                 </div>
@@ -242,20 +208,20 @@
                         <div class="space-y-4">
                             <div class="glass-effect p-4 rounded-lg">
                                 <div class="flex justify-between items-center">
-                                    <span class="text-sm text-gray-300">Unique Visitors Today</span>
-                                    <span class="text-lg font-bold text-bloody-light">1,847</span>
+                                    <span class="text-sm text-gray-300">Visitors</span>
+                                    <span class="text-lg font-bold text-bloody-light"></span>
                                 </div>
                             </div>
                             <div class="glass-effect p-4 rounded-lg">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm text-gray-300">Total Requests</span>
-                                    <span class="text-lg font-bold text-bloody-light">24,891</span>
+                                    <span class="text-lg font-bold text-bloody-light">0</span>
                                 </div>
                             </div>
                             <div class="glass-effect p-4 rounded-lg">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm text-gray-300">Top Country</span>
-                                    <span class="text-lg font-bold text-bloody-light">🇺🇸 USA</span>
+                                    <span class="text-lg font-bold text-bloody-light">N/A</span>
                                 </div>
                             </div>
                         </div>
@@ -267,27 +233,9 @@
                                 <div class="flex justify-between items-center">
                                     <div>
                                         <span class="text-sm font-medium">192.168.1.1</span>
-                                        <p class="text-xs text-gray-400">New York, US</p>
+                                        <p class="text-xs text-gray-400">localhost</p>
                                     </div>
-                                    <span class="text-xs text-gray-400">2 min ago</span>
-                                </div>
-                            </div>
-                            <div class="glass-effect p-3 rounded-lg">
-                                <div class="flex justify-between items-center">
-                                    <div>
-                                        <span class="text-sm font-medium">10.0.0.1</span>
-                                        <p class="text-xs text-gray-400">London, UK</p>
-                                    </div>
-                                    <span class="text-xs text-gray-400">5 min ago</span>
-                                </div>
-                            </div>
-                            <div class="glass-effect p-3 rounded-lg">
-                                <div class="flex justify-between items-center">
-                                    <div>
-                                        <span class="text-sm font-medium">172.16.0.1</span>
-                                        <p class="text-xs text-gray-400">Tokyo, JP</p>
-                                    </div>
-                                    <span class="text-xs text-gray-400">8 min ago</span>
+                                    <span class="text-xs text-gray-400">N/A</span>
                                 </div>
                             </div>
                         </div>
